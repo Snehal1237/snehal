@@ -14,17 +14,6 @@ public class demoUrl2 {
 		driver.findElement(By.id("loginButton")).click();
 		Thread.sleep(2000);
 		String expectedurl="https://demo.actitime.com/user/submit_tt.do";
-		String actualurl=driver.getCurrentUrl();
-		if(actualurl.equals(expectedurl))
-		{
-			System.out.println("true");
-		}
-		else
-		{
-			System.out.println("false");
-		}
-		System.out.println(actualurl);
-	}
-		}
+		String actualurl=driver.getCurrentUrl
 		
 
